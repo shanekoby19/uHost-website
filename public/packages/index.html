@@ -4,6 +4,7 @@
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
     <title>uHost</title>
     <link rel="shortcut icon" href="favicon.png">
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@700&display=swap" rel="stylesheet">
@@ -17,19 +18,20 @@
     <header class="main-header">
         <div>
             <a href="../index.html" class="main-header__brand">
+                <img class="dropdown" src="../images/hamburger-icon.jpeg" alt="menu icon for mobile devices.">
                 <img src="../images/uhost-icon.png" alt="uHost, your favorite web hosting platform.">
             </a>
         </div>
         <nav class="main-nav">
-            <ul class="main-nav__items">
+            <ul class="main-nav__items hidden">
                 <li class="main-nav__item">
-                    <a href="packages/index.html">Packages</a>
+                    <a href="">Packages</a>
                 </li>
                 <li class="main-nav__item">
                     <a href="../customers/index.html">Customers</a>
                 </li>
                 <li class="main-nav__item main-nav__item--cta">
-                    <a href="start-hosting/index.html">Start Hosting</a>
+                    <a href="../start-hosting/index.html">Start Hosting</a>
                 </li>
             </ul>
         </nav>
@@ -73,6 +75,7 @@
             </ul>
         </nav>
     </footer>
+    <script src="../js/app.js"></script>
 </body>
 
 </html>
